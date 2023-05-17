@@ -1,0 +1,30 @@
+---
+title: "workflow"
+format: html
+editor: visual
+---
+
+workflow
+
+```{r}
+library(tidyverse)
+library(magrittr)
+```
+
+data
+
+```{r}
+
+library(haven)
+dmae <- read_sas("https://github.com/philbowsher/Foundation-of-the-R-Workflow-workshop-2019-09-06/raw/master/Examples/data/dmae.sas7bdat", 
+    NULL)
+View(dmae)
+
+```
+
+ggplot2
+
+```{r}
+
+```
+
